@@ -13,6 +13,6 @@ document.querySelector(".go").addEventListener('click', () => {
     params.set("pesel", pesel.value)
     params.set("urodzin", urodzin.value)
     
-     location.href = "id.html?" + params;
+     location.href = "home.html?" + params;
 
 });
